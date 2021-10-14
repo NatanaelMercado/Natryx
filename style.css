@@ -1,0 +1,49 @@
+
+            h1 {
+
+                color: blue;
+                text-align: center;
+                background-color: transparent;
+                
+
+                
+                
+            }
+
+
+            h2{
+
+                text-align: center;
+                border: solid 3px black;
+                width: 5cm;
+                background-color: white;
+
+            }
+
+           form,label,#nombre,#apellido,#comentario{
+
+            color: white;
+
+            border: solid 1px grey;
+            
+
+           }
+
+           
+           #body {
+
+            
+
+                
+                background-image: url("img/lol.gif");
+
+                background-color: transparent;
+
+           }
+
+           p{
+
+            color: white;
+
+           }
+

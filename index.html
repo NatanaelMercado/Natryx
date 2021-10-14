@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Mi primera pagina web</title>
+
+    <style>
+
+        table, th, td {
+
+            border: 2px solid darkcyan;
+
+        }    </style>
+
+</head>
+<body>
+
+    <table style="width: 500px;">
+
+        <thead>
+             <tr>
+                 <th>Producto</th>
+                 <th>Precio</th>
+                 <th>Cantidad</th>
+            
+            </tr>
+        </thead>
+           
+        <tbody>
+
+            <tr>
+
+                <td>Guitarra</td>
+                <td>1$</td>
+                <td>2</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Ipod</td>
+                <td>10$</td>
+                <td>10</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Laptop</td>
+                <td>150$</td>
+                <td>1</td>
+
+            </tr>
+
+
+        </tbody>
+
+        <tfoot>
+
+            <td></td>
+            <td></td>
+            <td>Total: 260$</td>
+
+        </tfoot>
+
+    </table>
+
+
+
+    <!--  ___________________________________________________________ -->
+
+    <!-- ul unknorder list / es una lista no ordenada -->
+    <!-- ol order list / liesta ordenada -->
+    <!-- li list item / item de la lista -->
+
+    <ul>
+
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Hola: <br><br>
+
+            <ol>
+
+                <li style="list-style-type: upper-roman;">Elemento 5</li>
+                <li style="list-style-type: upper-roman;">Elemento 6</li>
+                <li style="list-style-type: upper-roman;">Elemento 7</li>
+                <li style="list-style-type: upper-roman;">Elemento 8</li>
+                <li>
+
+                    <ol>
+
+                        <li value="5" style="list-style-type: lower-roman;">Elemento 6</li>
+                        <li style="list-style-type: lower-roman;">Elemento 7</li>
+                        <li style="list-style-type: lower-roman;">Elemento 8</li>
+                        <li style="list-style-type: lower-roman;">Elemento 9</li>
+
+                    </ol>
+
+                </li>
+
+
+            </ol>
+
+        </li>
+
+
+    </ul>
+
+    <ol>
+
+        <li value="20">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+
+
+    </ol>
+
+
+    <hr>
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>El cielo es el limite</h6>
+    <hr>
+    <h2>El cielo es azul</h2>
+    <p>Este texto es <span style="color:darkblue">mucho mas largo</span>  y es para mostrar <br>la etiqueta span!</p>
+    <!--Este texto es un comentario-->
+    <a target="_blank" href="https://www.google.com.do">Ir a Google</a><br>
+    <img src="img/car.png" height="400" width="900" />
+    
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="apellido" placeholder="Nombre" />
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br><br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario">Agrega un comentario</textarea>
+        <br><br>
+        <button type="button" >Enviar</button>
+    </form>
+
+
+    <!--Este texto es un comentario
+    
+    <form> para crear formularios
+    
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="email" id="nombre" name="nombre" placeholder="Nombre"/>
+    </form>
+
+
+    input      <input />
+    type="text"     
+    type="email"    Correo electronico
+    type="password"  Contra
+    type="radio" 
+    type="checkbox" 
+    type="file"   Cargar archivos
+    type="submit"   Boton
+
+    button    <button><button/>
+    type="submit"
+    type="reset"
+    type="button"
+    
+    
+    -->
+    
+</body>
+</html>
